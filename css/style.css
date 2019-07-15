@@ -1,0 +1,172 @@
+/* Colors
+	#275400 Dark green
+	#98FF73 light green
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Bitter|Lato&display=swap');
+
+body {
+	/*padding: 2rem;*/
+	align-content: left;
+	font-size: 0.75rem;
+	line-height: 1.4;
+}
+
+#active-button {
+	background-color: #98FF73;
+
+}
+
+.masthead h1 {
+	font-family: 'Bitter', serif;
+	font-size: 4em;
+	text-align: center;
+	margin: 150px auto;
+	color: white;
+}
+
+.masthead {
+	background-image: url("../img/spring.jpg");
+	width: 100%;
+	height: 50vh;
+	background-position: center center;
+}
+
+
+.btn {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5% 20px;
+	margin: 5% 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+}
+
+.content img {
+
+	width: 100%;
+	height: auto;
+}
+
+.content p {
+	width: 100%;
+	height: auto;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+	padding-top: 30px;
+	color: #275400;
+
+}
+
+.content h3 {
+	font-family: 'Bitter', serif;
+	font-size: 1.6em;
+	color: #275400;
+	padding: 15px;
+
+}
+
+.main button {
+
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 10px;
+	background-color: transparent;
+	border-color: green;
+	color: #275400;
+
+}
+
+heading {
+	font-family: 'Lato', sans-serif;
+	font-size: 2rem;
+}
+
+.footer-icon {
+	display: flex;
+
+	align-items: flex-start;
+
+	font-size: 2rem;
+
+}
+
+i {
+	color: #275400;
+	margin: 40px 10px;
+}
+
+
+/* desktop size */
+@media (min-width: 30rem) {
+	body {
+		font-size: 1rem;
+		/*padding: 2rem;*/
+		align-content: left;
+		line-height: 1.6;
+	}
+
+	.masthead {
+		background-image: url("../img/spring.jpg");
+/*
+		width: 100%;
+		height: 800px;
+*/
+	}
+
+	form {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn {
+		width: 20%;
+		box-sizing: border-box;
+		padding: 2.5%;
+		margin: 2.5%;
+	}
+
+	.content img {
+		width: 25%;
+		float: left;
+		padding: 10px;
+	}
+
+	.content p {
+		width: 75%;
+		font-family: 'Lato', sans-serif;
+		font-size: 1em;
+		margin: 30px;
+		align-content: center;
+	}
+
+	.content h3 {
+		font-family: 'Bitter', serif;
+		font-size: 1.5em;
+		color: #275400;
+		padding: 10px;
+
+	}
+
+	footer {
+		clear: both;
+	}
+
+
+
+	.footer-icon {
+		display: flex;
+
+		align-items: flex-start;
+		padding: 0 100px;
+		font-size: 2rem;
+
+	}
+
+	i {
+		color: #275400;
+		margin: 40px 10px;
+	}
+
+}
